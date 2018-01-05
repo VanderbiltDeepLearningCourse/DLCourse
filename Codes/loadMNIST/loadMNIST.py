@@ -5,9 +5,9 @@ from matplotlib import pyplot
 
 
 imgNumber = 25  # the number of the image you want to display
-path = '/home/feiyang'   # the training set is stored in this directory
-fname_img = os.path.join(path, 't10k-images-idx3-ubyte')  # the training set image file path
-fname_lbl = os.path.join(path, 't10k-labels-idx1-ubyte')  # the training set label file path
+path = '/home/feiyang/'   # the training set is stored in this directory
+fname_img = os.path.join(path, 'train-images-idx3-ubyte')  # the training set image file path
+fname_lbl = os.path.join(path, 'train-labels.idx1-ubyte')  # the training set label file path
 
 
 # open the
